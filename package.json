@@ -1,0 +1,35 @@
+{
+  "name": "react-router-with-props",
+  "version": "0.1.1",
+  "description": "Extra routes for react-router-dom",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloCBenlloch/react-router-with-props.git"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "privateRoute",
+    "publicRoute",
+    "private",
+    "public",
+    "routes"
+  ],
+  "author": "Gonzalo Cañada Benlloch <gonzalocbenlloch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GonzaloCBenlloch/react-router-with-props/issues"
+  },
+  "homepage": "https://github.com/GonzaloCBenlloch/react-router-with-props#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
