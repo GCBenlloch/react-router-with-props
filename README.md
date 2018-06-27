@@ -49,7 +49,7 @@ And this one will call redirect them to '/admin' route.
 ### Private Route
 
 It requires two extra props.
-| Prop | Type |  |
+| Prop | Type |---|
 | ------ | ------ | ------ |
 | authed | boolean | If the user is authed or not |
 | redirectTo | string | route to redirect if necessary |
