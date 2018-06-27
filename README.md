@@ -30,7 +30,7 @@ It's the [basic route](https://reacttraining.com/react-router/web/example/basic)
 
 It requires two extra props.
 | Prop | Type |  |
-| ------ | ------ | ------ |
+|---|---|---|
 | authed | boolean | If the user is authed or not |
 | redirectTo | string | route to redirect if necessary |
 
